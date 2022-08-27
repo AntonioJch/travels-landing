@@ -4,7 +4,7 @@
   "description": "app to treasure your trips",
   "main": "index.html",
   "scripts": {
-    "build":"npx tailwindcss -i ./src/css/tailwind.css -o ./public/css/tailwind.css --watch",
+    "tw:build":"npx tailwindcss -i ./src/css/tailwind.css -o ./public/css/tailwind.css --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

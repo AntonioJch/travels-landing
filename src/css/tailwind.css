@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.Card{
+    @apply w-48 h-64 shadow-md rounded-lg flex-none transform transition-all  hover:-translate-y-4 hover:shadow-2xl
+}
+
+.cardTitle{
+    @apply text-2xl px-8 pt-8 pb-1 font-black text-white  tracking-wide
+}
+
+.text-shadow{
+    text-shadow: 1px 1px 5px rgb(0, 0, 0);
+}
+/* body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} */
