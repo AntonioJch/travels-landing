@@ -1074,6 +1074,18 @@ video {
     padding: 0;
 } */
 
+/* #toggle{
+    width: 40px;
+    height: 40px;
+} */
+
+@media (max-width: 1023px) {
+  .fa-solid{
+    font-size:x-large;
+    width: 20px;
+  }
+}
+
 .focus-within\:shadow-sm:focus-within {
   --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
   --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
